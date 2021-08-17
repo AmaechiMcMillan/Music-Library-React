@@ -6,19 +6,9 @@ class App extends Component {
     constructor(props){
         super(props);
         this.songs = [
-            musicSearchForm({input}.get.songs)
+            musicSearchForm({input}
         ];
         this.state: {
-            default{
-                if (this.state.musicSearchForm(input).null){
-                    displayedSongInfo === null,
-                }
-                    return;
-                else( displayedSongInfo = input ),
-                    return;
-                }
-            }
-        }
 
     }
     render() {
@@ -26,7 +16,6 @@ class App extends Component {
             <div className="container-fluid"> 
                 <div className="row">
                     <div className="col-md-4">
-                        <action {this.state.get(musicSearchForm).input}
                     </div>
                 </div>
             </div>
